@@ -54,4 +54,4 @@ Part B - Pick one of the presented cross-platforms: Flutter using Dart or React 
 The app must have at least some form of interaction with the user (a button suffices, but feel free to be creative);
 The assignment will be evaluated based on the effectiveness (it should run correctly), not the originality or aesthetics.
 React Native and Expo - StickerSmash App
-Files are located under separate repo under CSC6304-Project6b
+Files are located under separate repo under CSC6304-week7-project6b
