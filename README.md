@@ -48,8 +48,10 @@ Part A - Pick one of the presented native platforms: Xcode using SwiftUI or Andr
 The app must have at least some form of interaction with the user (a button suffices, but feel free to be creative);
 The assignment will be evaluated based on the effectiveness (it should run correctly), not the originality or aesthetics.
 Dice Roller App - Android
+Files are located under separate repo under CSC6304-Project-6
 
 Part B - Pick one of the presented cross-platforms: Flutter using Dart or React Native using Expo and create an interactive app.
 The app must have at least some form of interaction with the user (a button suffices, but feel free to be creative);
 The assignment will be evaluated based on the effectiveness (it should run correctly), not the originality or aesthetics.
 React Native and Expo - StickerSmash App
+Files are located under separate repo under CSC6304-Project6b
