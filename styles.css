@@ -1,0 +1,65 @@
+/* Style sheet for html page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.centered-box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 10px
+}
+
+.traditional {
+    height: 100vh;
+    padding: 10px;
+    border: 2px solid #000;
+    position: relative;
+    
+}
+
+.traditional-box {
+    background-color: #ffcccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000;
+
+}
+
+.flexbox-box {
+    background-color: #ccffcc;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000;
+
+}
+
+.grid-box {
+    background-color: #ccccff;
+}
