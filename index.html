@@ -1,35 +1,36 @@
-<!-- Week 4 project: centering a div with CSS techniques, flexbox, grid, and float -->
+<!-- Web page for trivia game using HTML, CSS, and JavaScript. -->
  <!DOCTYPE html>
  <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Centering a div</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" contents="width=device-width, initial scale=1.0">
+        <title>Trivia Game</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <h1>This is Eric Tweedie's page</h1>
-        <p>Check out <em>this</em> fantastic <u>page</u> of amazing <strong>centering!</strong></p>
-
-        <div class="container traditional">
-            <div class="centered-box traditional-box">
-                <h2>Traditional Centering</h2>
-                <p>Without Flexbox or grid</p>
-            </div>
-        </div>
-
-        <div class="container flexbox">
-            <div class="centered-box flexbox-box">
-                <h2>Flexbox Centering</h2>
-                <p>Using dislay: Flex</p>
-            </div>
-        </div>
-
-        <div class="container grid">
-            <div class="centered-box grid-box">
-                <h2>Grid Centering</h2>
-                <p>Using display: grid</p>
-            </div>
-        </div>
-    </body>
+    <body id="body">
+        <header id="header">
+            <h1 id="h1">Trivia Game</h1>
+        </header>
+        <main>
+            <section id="game-section">
+                <h2 id="h2">Test Your Knowledge!</h2>
+                <button id="start-button">Start Game</button>
+                <div id="question-container" class="hide">
+                    <div id="question"></div>
+                    <div id="answer-buttons" class="btn-container"></div>
+                    <button id="next-button" class="btn hide">Next Question</button>
+                </div>
+                <div id="score-container" class="hide">
+                    <h2>Your Score: <span id="score"></span></h2>
+                    <button id="restart-button" class="btn">Restart Game</button>
+                </div>
+                <div id="error-message" class="hide"></div>
+                <div id="loading-message">Loading questions...</div>
+                <div id="no-questions-message" class="hide">No questions available. Please try again later.</div>
+            </section>
+        </main>
+        <footer id="footer">
+            <p id="p">&copy; 2023 Trivia Game. All rights reserved.</p>
+        </footer>
+        <script src="trivia_call.js"></script>
  </html>

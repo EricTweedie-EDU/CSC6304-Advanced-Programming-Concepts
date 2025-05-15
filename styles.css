@@ -1,65 +1,109 @@
-/* Style sheet for html page */
+/* CSS styling for web page file index.html*/
+
+/* General styles */
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    height: 100vh;
-}
-
-.centered-box {
-    width: 200px;
-    height: 200px;
+    background-color: #f4f4f9;
+    color: #333;
     text-align: center;
-    margin: auto;
-    padding: 10px
 }
 
-.traditional {
-    height: 100vh;
-    padding: 10px;
-    border: 2px solid #000;
-    position: relative;
-    
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
 }
 
-.traditional-box {
-    background-color: #ffcccc;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
 }
 
-.flexbox {
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.btn-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: auto;
-    padding: 10px;
-    border: 2px solid #000;
-
+    gap: 10px;
 }
 
-.flexbox-box {
-    background-color: #ccffcc;
+.hide {
+    display: none;
 }
 
-.grid {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: auto;
-    padding: 10px;
-    border: 2px solid #000;
-
+/* Specific styles */
+#game-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 }
 
-.grid-box {
-    background-color: #ccccff;
+#question-container {
+    margin-top: 20px;
 }
+
+#score-container {
+    margin-top: 20px;
+}
+
+#error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#loading-message {
+    font-style: italic;
+    color: #555;
+    margin-top: 20px;
+}
+
+#no-questions-message {
+    color: #555;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
